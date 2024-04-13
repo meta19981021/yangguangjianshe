@@ -1,0 +1,568 @@
+/* CSS Document */
+body{
+	margin: 0 auto;
+	padding: 0;
+	overflow-x:hidden;
+}
+	/*顶部导航栏*/
+.nav{
+	width: 1920px;
+	height: 120px;
+	margin: 0 auto;
+	position: relative;
+}
+.daohang{
+	list-style: none;
+	float: right;
+	margin: 46px 170px 0 auto;
+	padding: 0px;
+	width: 780px;
+}
+.daohang li:hover{
+	color: #005EB2;
+	font-weight: bold;
+	
+}
+.daohang .shouye{
+	width: 80px;
+	border: none;
+}
+.daohang li{
+	width: 120px;
+	height: 28px;;
+	float: left;
+	line-height: 28px;
+	font-size: 20px;
+	font-family:"苹方 中等";
+	color: #333;
+	text-align: center;
+	cursor: pointer;
+	border-left: 1px solid #DDDDDD;
+}
+
+.logo1{
+	width: 65px;
+	height: 68px;
+	background-image: url( "images/logo1.png");
+	margin: 26px auto;
+	float: left;
+	position: absolute;
+	left: 260px;
+	cursor: pointer;
+}
+.logo2{
+	width: 416px;
+	height: 59px;
+	background-image: url("images/logo2.png");
+	margin: 31px auto;
+	float: left;
+	position: absolute;
+	left: 344px;
+}
+
+
+/*banner部分*/
+.banner{
+	width: 1920px;
+	height: 560px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+/*内容版面1*/
+.neirong1{
+	width: 1920px;
+	height: 509px;
+	background-color: #F5F5F5;
+	margin: 0 auto;
+}
+.neirong-gongsijianjie{
+	width: 1200px;
+	height: 359px;
+	/*background-color: #999999;*/
+	position: relative;
+	margin: 72px auto;
+	float: left;
+	left: 360px;
+}
+.zuojieshao{
+	width: 604px;
+	height: 359px;
+	/*background-color: #666;*/
+}
+.box1-jieshao{
+	width: 604px;
+	height: 32px;
+	position: relative;
+}
+.lansexian{
+	width: 6px;
+	height: 32px;
+	background-image: url("images/lanseshuxian.png")
+}
+.gongsijieshao{
+	float: left;
+	position: absolute;
+	font-size: 30px;
+	left: 14px;
+	line-height: 32px;
+	font-weight: bold;
+	font-family: "microsoft yahei"
+}
+.gengduo1{
+	float: right;
+	font-size: 14px;
+	color: #828282;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	cursor: pointer;
+}
+.gengduo1:hover{
+	color: #333;
+}
+.wenzijieshao{
+	margin-top: 16px;
+	width: 100%;
+	height: 216px;
+}
+.p1{
+	display: inline;
+}
+.p2{
+	float: left;
+	position: relative;
+	top:6px;
+}
+.zhibiao{
+	width: 604px;
+	height: 74px;
+	background-image: url( "images/Group 111.png");
+	float: left;
+	position: absolute;
+	bottom: 0;
+}
+
+.tu1{
+	float: right;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+}
+
+/*内容版面2*/
+.neirong2{
+	height: 443px;
+	width: 1920px;
+	margin: 0 auto;
+}
+.tongzhigonggao{
+	width: 604px;
+	height: 320px;
+	float: left;
+	margin-top: 48px;
+	margin-left: 360px;
+	position: relative;
+}
+
+.box1-tonggao{
+	width: 604px;
+	height: 32px;
+	position: relative;
+}
+.lansexian{
+	width: 6px;
+	height: 32px;
+	background-image: url("images/lanseshuxian.png")
+}
+.tonggao{
+	float: left;
+	position: absolute;
+	font-size: 30px;
+	left: 14px;
+	line-height: 32px;
+	font-weight: bold;
+	font-family: "microsoft yahei"
+}
+.gengduo2{
+	float: right;
+	font-size: 14px;
+	color: #828282;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	cursor: pointer;
+}
+.gengduo2:hover{
+    color: #333;	
+}
+
+
+.gonggao{
+	width: 604px;
+	height: 262px;
+	position:absolute;
+	bottom: 0px;
+}
+.gonggao1{
+	width: 604px;
+	height: 58px;
+	background-color: #F5F5F5;
+}
+.gonggao1:hover{color: #005BAB;}
+
+.gonggao2{
+	width: 604px;
+	height: 58px;
+	background-color: #F5F5F5;
+	margin-top: 10px;
+}
+.gonggao2:hover{color: #005BAB;}
+
+.gonggao3{
+	width: 604px;
+	height: 58px;
+	background-color: #F5F5F5;
+	margin-top: 10px;
+}
+
+.gonggao3:hover{color: #005BAB;}
+
+.gonggao4{
+	width: 604px;
+	height: 58px;
+	background-color: #F5F5F5;
+	margin-top: 10px;
+}
+.gonggao4:hover{color: #005BAB;}
+
+.ggwenzi{
+	width: 400px;
+	height: 58px;
+	line-height: 58px;
+	margin: 0 auto 0 16px;
+	overflow-y:hidden;
+	float: left;
+	cursor: pointer;
+}
+
+.ggrqi{
+	width: 92px;
+	text-align: right;
+	height: 58px;
+	line-height: 58px;
+	float: right;
+	margin: 0 16px auto 0;
+}
+/**业务范围**/
+.yewufanwei{
+	width: 556px;
+	height: 320px;
+	float: right;
+	margin-top: 48px;
+	margin-right: 360px;
+	position: relative;
+}
+.box1-yewufanwei{
+	width: 556px;
+	height: 32px;
+	position: relative;
+}
+.lansexian{
+	width: 6px;
+	height: 32px;
+	background-image: url("images/lanseshuxian.png")
+}
+.yefan{
+	float: left;
+	position: absolute;
+	font-size: 30px;
+	left: 14px;
+	line-height: 32px;
+	font-weight: bold;
+	font-family: "microsoft yahei"
+}
+.gengduo3{
+	float: right;
+	font-size: 14px;
+	color: #828282;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	cursor: pointer;
+}
+.gengduo3:hover{
+	color: #333;
+}
+.yefantubiao{
+	width: 556px;
+	height: 262px;
+	position: absolute;
+	bottom: 0px;
+}
+.bu1{
+	width: 175px;
+	height: 126px;
+	background-color: #333;
+	float: left;
+	cursor: pointer;
+}
+.bu1:hover{
+	background-color: #005BAB;
+}
+.bu2{
+	width: 175px;
+	height: 126px;
+	background-color: #333;
+	float: left;
+	margin-left: 15px;
+	cursor: pointer;
+}
+.bu2:hover{
+	background-color: #005BAB;
+}
+.bu3{
+	width: 175px;
+	height: 126px;
+	background-color: #333;
+	float: left;
+	margin-left: 16px;
+	cursor: pointer;
+}
+.bu3:hover{
+	background-color: #005BAB;
+}
+.bu4{
+	width: 175px;
+	height: 126px;
+	background-color: #333;
+	float: left;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.bu4:hover{
+	background-color: #005BAB;
+}
+.bu5{
+	width: 175px;
+	height: 126px;
+	background-color: #333;
+	float: left;
+	margin-left: 15px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.bu5:hover{
+	background-color: #005BAB;
+}
+.bu6{
+	width: 175px;
+	height: 126px;
+	background-color: #333;
+	float: left;
+	margin-left: 16px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.bu6:hover{
+	background-color: #005BAB;
+}
+/*内容版面3*/
+.neirong3{
+	width: 1920px;
+	height: 324px;
+	position: relative;
+	margin: 0 auto;
+}
+.box1-yejizhanshi{
+	width: 1200px;
+	height: 32px;
+	position: relative;
+	left: 360px;
+}
+.lansexian{
+	width: 6px;
+	height: 32px;
+	background-image: url("images/lanseshuxian.png")
+}
+.yeji{
+	float: left;
+	position: absolute;
+	font-size: 30px;
+	left: 14px;
+	line-height: 32px;
+	font-weight: bold;
+	font-family: "microsoft yahei"
+}
+.gengduo4{
+	float: right;
+	font-size: 14px;
+	color: #828282;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	cursor: pointer;
+}
+.gengduo4:hover{
+	color: #333;
+}
+.yezhan{
+	width: 1200px;
+	height: 262px;
+	position: absolute;
+	bottom: 0;
+	left: 360px;
+}
+.zuoqiehuan{
+	float: left;
+	position: absolute;
+	top: 94px;
+}
+.youqiehuan{
+	float: right;
+	position: absolute;
+	top: 94px;
+	right: 0;
+}
+.zhanshibox1{
+	width: 227px;
+	height: 262px;
+	float: left;
+}
+.zhanshibox2{
+	width: 227px;
+	height: 262px;
+	float: left;
+	margin-left: 16px;
+}
+.zhanshibox3{
+	width: 227px;
+	height: 262px;
+	float: left;
+	margin-left: 16px;
+}
+.zhanshibox4{
+	width: 227px;
+	height: 262px;
+	float: left;
+	margin-left: 16px;
+}
+.zhanshibox5{
+	width: 227px;
+	height: 262px;
+	float: right;
+	margin-right: 0;
+}
+
+.zhantu1{
+	width: 227px;
+	height: 227px;
+	cursor: pointer;
+}
+.zhanshiwenzi1{
+	text-align: center;
+	cursor: pointer;
+}
+
+/*内容版面4*/
+.neirong4{
+	width: 1920px;
+	height: 200px;
+	margin: 80px auto 0 auto;
+	background-color: #F5F5F5;
+	position: relative;
+}
+.logo3{
+	float: left;
+	position: absolute;
+	left: 260px;
+	top:46px;
+}
+.lianxifangshi{
+	width: 429px;
+	height: 99px;
+	float: left;
+	position: absolute;
+	top: 52px;
+	left: 826px;
+}
+.beianquyu{
+	width: 344px;
+	height: 100px;
+	float: right;
+	position: relative;
+	right: 260px;
+	top: 52px;
+	font-size: 14px;
+}
+.lianxi1{
+	width: 100%;
+	height: 25px;
+	position: relative;
+}
+.lianxi2{
+	width: 100%;
+	height: 25px;
+	margin-top: 12px;
+}
+.lianxi3{
+	width: 100%;
+	height: 25px;
+	margin-top: 12px;
+}
+.tubiao1{
+	width: 25px;
+	height: 25px;
+	background-image: url("images/tubiao1.png");
+	float: left;
+}
+.dizhi{
+	font-size: 14px;
+	line-height: 25px;
+	float: left;
+	position: absolute;
+	left: 31px;
+	letter-spacing: 0.2px;
+	color: #696969;
+}
+.tubiao2{
+	width: 25px;
+	height: 25px;
+	background-image: url( "images/tubiao2.png");
+	float: left;
+}
+.tubiao3{
+	width: 25px;
+	height: 25px;
+	background-image: url( "images/tubiao3.png");
+	float: left;
+}
+
+.dibudaohang{
+	width: 100%;
+	height: 24px;
+}
+.dibudaohang li{
+	list-style: none;
+	float: left;
+	text-align: right;
+	line-height: 14px;
+	width: 76px;
+	height: 24px;
+	color: #000;
+	font-family:"微软雅黑";
+	cursor: pointer;
+}
+.beian{
+	float: right;
+	text-align: right;
+	line-height:14px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	margin: 0 auto;
+	color: #333;
+}
+.beianwenzi{
+	margin: 8px auto 0px auto;
+}
